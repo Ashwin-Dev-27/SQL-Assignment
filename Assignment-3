@@ -1,0 +1,90 @@
+USE college;
+INSERT into students values(1,'Ashwin','2006-04-27','Male',8780153825);
+INSERT into students values(2,'Ajeet','2005-06-12','Male',8780153825);
+INSERT into students values(3,'Anshika','2001-07-21','Female',8780153825);
+INSERT into students values(4,'Vidya','2000-03-14','Female',8780153825);
+INSERT into students values(5,'Anshvik','2002-05-15','Male',8780153825);
+
+INSERT into students values(6,'Anubhav','2001-07-17','Male',5780153825);
+INSERT into students values(7,'Vishal','2005-06-16','Male',2780153825);
+INSERT into students values(8,'kajal','2002-07-11','Female',4780153825);
+INSERT into students values(9,'varsha','2000-09-19','Female',878013825);
+INSERT into students values(10,'utsav','2007-09-15','Male',8780146825);
+
+use college;
+INSERT into department values(10,'AI&ML','A');
+INSERT into department values(2,'CSE','B');
+INSERT into department values(3,'CIVIL','C');
+INSERT into department values(4,'MECHANICAL','D');
+INSERT into department values(5,'3D','E');
+
+INSERT into department values(6,'EEE','F');
+INSERT into department values(7,'CYBER SECURITY','E');
+INSERT into department values(8,'EE','G');
+INSERT into department values(9,'AE','H');
+INSERT into department values(11,'CEAP','I');
+
+USE college;
+INSERT INTO faculty VALUES(111,'Arun kumar','arun@gmail.com',1);
+INSERT INTO faculty VALUES(112,'Sujeet singh','sujeet@gmail.com',5);
+INSERT INTO faculty VALUES(113,'Praveen kumar','praveen@gmail.com',1);
+INSERT INTO faculty VALUES(114,'Manish Jaishwal','manish@gmail.com',2);
+INSERT INTO faculty VALUES(115,'Murlishar Singh','singh@gmail.com',1);
+INSERT INTO faculty VALUES(116,'Jitendar singh','jitender@gmail.com',2);
+INSERT INTO faculty VALUES(117,'Manisha kumari','manisha@gmail.com',1);
+INSERT INTO faculty VALUES(118,'Pooja kumari','kumari@gmail.com',4);
+INSERT INTO faculty VALUES(119,'Aman kumar','aman@gmail.com',5);
+INSERT INTO faculty VALUES(120,'Manoj kumar','manoj@gmail.com',9);
+INSERT INTO faculty VALUES(121,'SN rai','rai@gmail.com',3);
+
+INSERT INTO ENROLMENT
+VALUES(1,214,23729,'A',3);
+
+INSERT INTO ENROLMENT
+VALUES(2,215,23730,'B',5);
+
+INSERT INTO ENROLMENT
+VALUES(3,216,23729,'C',1);
+
+INSERT INTO ENROLMENT
+VALUES(4,217,23733,'B',7);
+
+INSERT INTO ENROLMENT
+VALUES(5,218,23731,'A',4);
+
+INSERT INTO 
+courses VALUES(214,'OS',3.4,1,117);
+
+INSERT INTO
+ courses VALUES(215,'DAA',3.4,1,113);
+
+INSERT INTO
+ courses VALUES(216,'DE',3.4,1,111);
+
+INSERT INTO 
+courses VALUES(217,'MATH',3.4,5,112);
+
+INSERT INTO
+ courses VALUES(218,'CHEM',3.4,2,114);
+
+INSERT INTO 
+courses VALUES(219,'PHY',3.4,9,120);
+
+INSERT INTO
+ courses VALUES(220,'ANALOG',3.4,1,111);
+
+INSERT INTO
+ courses VALUES(222,'WSP',3.4,3,121);
+ 
+INSERT INTO
+ courses VALUES(223,'DBMS',3.4,1,111);
+ 
+ 
+
+SELECT * FROM students;
+SELECT * FROM courses;
+SELECT * FROM enrolment;
+SELECT * FROM faculty;
+SELECT * FROM department;
+
+
